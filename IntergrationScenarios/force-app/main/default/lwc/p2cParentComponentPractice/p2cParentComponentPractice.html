@@ -1,0 +1,17 @@
+<template>
+    <c-p2c-alert-component-practice
+        card-heading="parent to child primitive data communication"
+        message="Hurry!! I got the data."
+        num=20
+        val="false"></c-p2c-alert-component-practice>
+    <div class="slds-var-m-bottom_medium">
+        <c-p2c-crousel-component2 crousel-data={crouselDetails}></c-p2c-crousel-component2>
+    </div>
+
+    <div class="slds-var-m-bottom_medium">
+        <lightning-card title="Parent to Child Communication on Action">
+            <lightning-input type="number" label="Enter a number" value={parcentVal} onkeyup={changeHandler}></lightning-input>
+            <c-p2c-progress-component2 bar-value={parcentVal}></c-p2c-progress-component2>
+        </lightning-card>
+    </div>
+</template>

@@ -1,0 +1,16 @@
+<template>
+    <lightning-card variant="Narrow" title="Lighting Map Example" icon-name="standard:account">
+        <div class="slds-p-horizontal_small">
+            <lightning-map if:true={mapMarkers} 
+                markers-title="Account Records"
+                map-markers={mapMarkers}
+                show-footer
+                zoom-level="15"
+                onmarkerselect={handleMarkerSelect}>
+            </lightning-map>
+        </div>
+        <div slot="footer">
+            <lightning-badge label="Google Map"></lightning-badge>
+        </div>
+    </lightning-card>
+</template>

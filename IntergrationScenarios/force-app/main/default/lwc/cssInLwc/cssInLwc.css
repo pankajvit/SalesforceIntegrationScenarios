@@ -1,0 +1,14 @@
+p{
+    color: green;
+    font-size: 30px;
+}
+
+.user{
+    color: pink;
+    font-size: 20px;
+}
+
+.user:hover{
+    font-size: 50px;
+    color: red;
+}
