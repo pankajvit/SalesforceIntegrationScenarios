@@ -1,8 +1,8 @@
 public class CalloutToSalesforceOrg {
-    public static void getAccounts(){
+    public static void getAccounts(String industry){
         Http http = new Http();
         Httprequest request = new Httprequest();
-        request.setEndpoint('callout:SFDCB/services/apexrest/accountmgmt/');
+        request.setEndpoint('callout:SFDCB/services/apexrest/accountmgmt/?industry=' + EncodingUtil.urlEncode(industry, 'UTF-8'));
         request.setMethod('GET');
         Httpresponse response = http.send(request);
         
