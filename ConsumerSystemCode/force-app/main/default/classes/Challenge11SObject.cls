@@ -7,7 +7,7 @@ public with sharing class Challenge11SObject {
 	    // Update Opportunity State to “Closed-Won”
 	    // Delete the Opportunity
 	    // Undelete the opportunity
-
+        // Repeat the challenge using generic SObject type.
     public static void challenge11WithoutGeneraticObject(){
         Account acc = new Account();
         acc.Name = 'WingNut Films';
@@ -16,5 +16,6 @@ public with sharing class Challenge11SObject {
         opp.Name = 'Lord of the Rings';
         opp.StageName = 'Qualification';
         opp.CloseDate = new Date().Today();
+        opp.AccountId = acc.Id;
     }
 }

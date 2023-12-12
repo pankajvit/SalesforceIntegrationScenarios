@@ -1,0 +1,9 @@
+12-12-2023
+
+	Integrated two system:
+		System A - pankajkumardev@psl.com (web service code here – acting as source org)
+		System B - pankajvitmca@pd1.com (consuming data of system A – acting as data consumer)
+
+=> Used previous integrated orgs or now created employee object and following field(Employee Id, Name, Position, Salary)
+
+=> currently watching "Salesforce Integration | JSON Parsing in Apex by Salesforce Predator" -> watched till 6:24 mins.
