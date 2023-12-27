@@ -6,4 +6,11 @@
 
 => Used previous integrated orgs or now created employee object and following field(Employee Id, Name, Position, Salary)
 
-=> currently watching "Salesforce Integration | JSON Parsing in Apex by Salesforce Predator" -> watched till 6:24 mins.
+=> currently watching "Salesforce Integration | JSON Parsing in Apex by Salesforce Predator" -> Completed
+
+=> currently watching "Integration Course on Udemy" by Debasis Jena
+		-> watching video-26  
+
+=> Complete the trail "Build Integrations using Connected Apps" on trailhead
+
+
