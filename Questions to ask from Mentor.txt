@@ -1,0 +1,11 @@
+Questions, I have while studying integration:
+
+1. How to make salesforce as Identity provider practically via doing project ?
+
+	=> I was studying about
+
+2. https://openidconnect.herokuapp.com/callback
+
+Consumer key: 3MVG95mg0lk4batjgA1G0P.b5qHMkLj3Zd1BXftkm8b6pP_z9V44ETC9OKnL07AX1iFyot7tOtxi9bMUNvU0x
+
+Consumer secret key: 3E6DA1A5651A9D3AC988E23352F278038822E47128C96D7F5009680484AFA421
